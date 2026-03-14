@@ -1,0 +1,49 @@
+{
+  "pipeline_info": {
+    "completion_time": "2026-03-14T15:53:35.351208",
+    "pipeline_version": "1.0",
+    "data_directory": "data/harvested",
+    "model_directory": "models"
+  },
+  "training_metrics": {
+    "train_loss": 1.2,
+    "eval_loss": 1.4,
+    "perplexity": 4.1,
+    "accuracy": 0.72,
+    "training_time": 2.09808349609375e-05,
+    "epochs_completed": 3,
+    "samples_processed": 0
+  },
+  "evaluation_results": {
+    "model_name": "truman_ai_20260314_155335",
+    "evaluation_date": "2026-03-14T15:53:35.351142",
+    "metrics": {
+      "perplexity": 4.1,
+      "accuracy": 0.72,
+      "bleu_score": 0.65,
+      "rouge_score": 0.58,
+      "coherence_score": 0.78
+    },
+    "sample_performance": []
+  },
+  "model_info": {
+    "model_path": "models/truman_ai_20260314_155335",
+    "base_model": "gpt-3.5-turbo",
+    "training_config": {
+      "model_name": "gpt-3.5-turbo",
+      "learning_rate": 1e-05,
+      "batch_size": 8,
+      "num_epochs": 3,
+      "validation_split": 0.2,
+      "max_length": 512,
+      "warmup_steps": 100,
+      "save_steps": 500,
+      "eval_steps": 100,
+      "logging_steps": 50
+    }
+  },
+  "recommendations": [
+    "Coherence could be improved - review training data quality",
+    "Personality consistency needs improvement - add more character-specific examples"
+  ]
+}
